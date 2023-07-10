@@ -1,0 +1,96 @@
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+/* Info-box */
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box img{
+    width: 90px;;
+    margin-right: 24px;
+}
+
+/* Milestone */
+#milestone{
+    background: linear-gradient(rgba(220, 171, 102, 0.8),rgba(220, 171, 102, 0.8)) ,url(../img/bg_banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p{
+    color: #ffff;
+}
+
+#milestone .display-4{
+    font-weight: 700;
+}
+
+/* services */
+#services{
+    background: linear-gradient(rgba(220, 171, 102, 0.8),rgba(220, 171, 102, 0.8)) ,url(../img/bg_banner2.jpg);
+}
+
+#services .display-4,
+#services p{
+    color: #ffff;
+}
+
+#more{
+    display: none;
+}
+
+#more2{
+    display: none;
+}
+
+#more3{
+    display: none;
+}
+
+#more4{
+    display: none;
+}
+
+#more5{
+    display: none;
+}
+#more6{
+    display: none;
+}
+
+.service-box:hover{
+    background-color: #DCAA66;
+}
+
+#services .display-4{
+    font-weight: 700;
+}
+.intro{
+    margin-bottom: 40px;
+}
+
+.intro h6{
+    font-weight: 400;
+    color: #DCAA66;
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img{
+    width: unset;
+}
+
+.service-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Barlow",sans-serif;   
+    line-height: 1.7;
+    color: black; 
+    background-image: url();
+}
+
+h1,h2,h3,h5,h6{
+    font-weight: 700 !important;
+    color: #2b3339
+}
+
+a{
+    color: #1d2429;
+    text-decoration: none;
+    transition: all,0.4s ease ; 
+    font-weight: 500;
+} 
+
+img{
+    width: 100%;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* nav bar */
+.top-nav{
+    background-color: #b78e54;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffff;
+}
+.top-nav i , .top-nav span{
+    vertical-align: middle;
+}
+
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.social-links a:hover{
+    background-color: #ffff;
+    color: #DCAA66;
+}
+
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    background-color: #baa890 !important; 
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #87683e;
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size: 26px;
+    color: #DCAA66;
+}
+
+.navbar-brand span{
+    color: #DCAA66;
+}
+
+
+/* btn */
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+    
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-brand{
+    background-color: #b78e54;
+    color: #ffff;
+    border-color:#b78e54;
+
+}
+
+.btn-brand:hover{
+    color: #ffff;
+    background-color: #a37636;
+    scale: 1.5;
+    transition: 0.3s;
+}
+
+/* slider */
+.slide1{
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50,0.4)), url(../img/bg_banner1.jpg);
+}
+
+.slide2{
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50,0.4)), url(../img/bg_banner2.jpg);
+}
+
+/* owl carosel */
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top:50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    font-size: 32px;
+    margin-top: -30px !important;
+    color: #ffff !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev{
+    left: 0%;
+}
+
+.owl-next{
+    right: 0%;
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: #DCAA66 !important;
+}
